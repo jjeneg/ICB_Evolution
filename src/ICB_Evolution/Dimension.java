@@ -11,7 +11,7 @@ package ICB_Evolution;
  */
 public class Dimension {
 
-    // Calculamos el número de etiquetas utilizadas
+    // Calculamos el numero de etiquetas utilizadas
     public static int dimension(String[] var) {
         int n = 0;
         for (int d = 0; d < 15; d++) {
@@ -24,7 +24,7 @@ public class Dimension {
         return n;
     }
 
-    // Redimensiona la matriz para adaptarse al número de etiquietas utilizadas
+    // Redimensiona la matriz para adaptarse al numero de etiquietas utilizadas
     public static String[] redimensiona(String[] arr, int n) {
         String[] temp;
         if (arr.length < n) {

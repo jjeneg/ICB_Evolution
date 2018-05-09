@@ -7503,127 +7503,127 @@ public class ICB_Evolution extends javax.swing.JFrame {
     }//GEN-LAST:event_jRB0120jRB118StateChanged
 
     private void jCB1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB1ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB1ActionPerformed
 
     private void jRB1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRB1ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jRB1ActionPerformed
 
     private void jCB2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB2ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB2ActionPerformed
 
     private void jCB3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB3ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB3ActionPerformed
 
     private void jCB4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB4ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB4ActionPerformed
 
     private void jCB5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB5ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB5ActionPerformed
 
     private void jCB6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB6ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB6ActionPerformed
 
     private void jCB7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB7ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB7ActionPerformed
 
     private void jCB8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB8ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB8ActionPerformed
 
     private void jCB9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB9ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB9ActionPerformed
 
     private void jCB10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB10ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB10ActionPerformed
 
     private void jCB11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB11ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB11ActionPerformed
 
     private void jCB12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB12ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB12ActionPerformed
 
     private void jCB13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB13ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB13ActionPerformed
 
     private void jCB14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB14ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB14ActionPerformed
 
     private void jCB15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB15ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB15ActionPerformed
 
     private void jCB16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB16ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB16ActionPerformed
 
     private void jCB17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB17ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB17ActionPerformed
 
     private void jCB18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB18ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB18ActionPerformed
 
     private void jCB19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB19ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB19ActionPerformed
 
     private void jCB20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB20ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB20ActionPerformed
 
     private void jCB21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB21ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB21ActionPerformed
 
     private void jCB22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB22ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB22ActionPerformed
 
     private void jCB23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB23ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB23ActionPerformed
 
     private void jCB24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB24ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB24ActionPerformed
 
     private void jCB25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB25ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB25ActionPerformed
 
     private void jCB26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB26ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB26ActionPerformed
 
     private void jCB27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB27ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB27ActionPerformed
 
     private void jCB28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB28ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB28ActionPerformed
 
     private void jCB29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB29ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB29ActionPerformed
 
     private void jCB30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jCB30ActionPerformed
-        // TODO add your handling code here:
+        ActualizaDibujo();
     }//GEN-LAST:event_jCB30ActionPerformed
 
     /**

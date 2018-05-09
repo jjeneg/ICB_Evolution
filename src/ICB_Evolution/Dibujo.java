@@ -182,6 +182,7 @@ public class Dibujo {
                     dato[y + 1] = temp[1];
                     dato[y + 2] = temp[2];
                     dato[y + 3] = temp[3];
+                }
             }
         }
         return dato;
@@ -206,7 +207,7 @@ public class Dibujo {
         g.setFont( stringFont );
 
         // Creación del índice para la posterior ordenación de los campos
-        dato = Dibujo.ordena(dato);,
+        dato = Dibujo.ordena(dato);
 
         // El inicio 0 señala el Este del gráfico
         g.clearRect(0, 0, 660, 560); // Borra el rectangulo antes de volver a repintar - clearRect(int x, int y, int width, int height)
@@ -275,13 +276,13 @@ public class Dibujo {
 
         if ((partes < 15) & (partes > 12)) {
             red = 180 / partes + 1;
-        } // Ajuste para que los decimales resultantes de 180/partes, no desvirtúen la imagen.
+        } // Ajuste para que los decimales resultantes de 180/partes, no desvirtuen la imagen.
         for (int x = 0; x < (dato.length / 4); x++) {
             // Seleccionamos el color del pincel - setColor(Color c) / setColor(int R, int G, int B)
             g.setColor(new Color(Integer.parseInt(dato[x * 4 + 1].toString()), Integer.parseInt(dato[x * 4 + 2].toString()), Integer.parseInt(dato[x * 4 + 3].toString())));
             if ((w + red) > 270) {
                 red = 270 - w;
-            } // Ajuste para que los decimales resultantes de 180/partes, no desvirtúen la imagen.
+            } // Ajuste para que los decimales resultantes de 180/partes, no desvirtuen la imagen.
             g.fillArc(140, 70, 350, 350, w, red); // Pinta el sector - fillArc(int x, int y, int width, int height, int startAngle, int arcAngle)
             g.drawArc(140, 70, 350, 350, w, red); // Dibuja el arco - drawArc(int x, int y, int width, int height, int startAngle, int arcAngle)
             g.drawString(dato[x * 4].toString(), 0, z); // Escribe el nombre - drawString(String str, int x, int y)
@@ -292,7 +293,7 @@ public class Dibujo {
             y = x;
         }
 
-        // Pintamos en el último sector, lo que falte para llegar a 180
+        // Pintamos en el ultimo sector, lo que falte para llegar a 180
         if (w < 270) {
             g.setColor(new Color(Integer.parseInt(dato[y * 4 + 1].toString()), Integer.parseInt(dato[y * 4 + 2].toString()), Integer.parseInt(dato[y * 4 + 3].toString())));
             g.fillArc(140, 70, 350, 350, w, 270 - w); // Pinta el sector - fillArc(int x, int y, int width, int height, int startAngle, int arcAngle)
@@ -323,10 +324,10 @@ public class Dibujo {
         // g.drawArc(30, 60, 380, 380, 90, 360);
 
 // ---------------------------------------------------------------
-        // Creación del índice para la posterior ordenación de los campos
+        // Creacion del indice para la posterior ordenacion de los campos
         dato2 = Dibujo.orden(dato2);
 
-        // El inicio 0 señala el Este del gráfico
+        // El inicio 0 señala el Este del grafico
         // g.clearRect(0, 0, 660, 520); // Borra el rectangulo antes de volver a repintar - clearRect(int x, int y, int width, int height)
         // Calculamos cuantas partes hemos de dividir el semicirculo, segun los datos que recibimos.
         int partes2 = dato2.length / 4;
@@ -377,7 +378,7 @@ public class Dibujo {
 
         if ((partes2 < 15) & (partes2 > 12)) {
             red = 180 / partes2 + 1;
-        } // Ajuste para que los decimales resultantes de 180/partes, no desvirtúen la imagen.
+        } // Ajuste para que los decimales resultantes de 180/partes, no desvirtuen la imagen.
         for (int x = 0; x < (dato2.length / 4); x++) {
             if (w < 270) {
                 w = w + 180;
@@ -386,7 +387,7 @@ public class Dibujo {
             g.setColor(new Color(Integer.parseInt(dato2[x * 4 + 1].toString()), Integer.parseInt(dato2[x * 4 + 2].toString()), Integer.parseInt(dato2[x * 4 + 3].toString())));
             if ((w + red) > 450) {
                 red = 450 - w;
-            } // Ajuste para que los decimales resultantes de 180/partes, no desvirtúen la imagen.
+            } // Ajuste para que los decimales resultantes de 180/partes, no desvirtuen la imagen.
             g.fillArc(140, 70, 350, 350, w, red); // Pinta el sector - fillArc(int x, int y, int width, int height, int startAngle, int arcAngle)
             g.drawArc(140, 70, 350, 350, w, red); // Dibuja el arco - drawArc(int x, int y, int width, int height, int startAngle, int arcAngle)
             // g.drawString(temp[x * 4].toString() + " " + partes + " " + " w=" + w + " Ang=" + red, 500, z); // Escribe el nombre - drawString(String str, int x, int y)
@@ -396,7 +397,7 @@ public class Dibujo {
             y = x;
         }
 
-        // Pintamos en el último sector, lo que falte para llegar a 360 + 90
+        // Pintamos en el ultimo sector, lo que falte para llegar a 360 + 90
         if (w < 450) {
             g.setColor(new Color(Integer.parseInt(dato2[y * 4 + 1].toString()), Integer.parseInt(dato2[y * 4 + 2].toString()), Integer.parseInt(dato2[y * 4 + 3].toString())));
             g.fillArc(140, 70, 350, 350, w, 450 - w); // Pinta el sector - fillArc(int x, int y, int width, int height, int startAngle, int arcAngle)
@@ -457,11 +458,11 @@ public class Dibujo {
         // Hacemos el dibujo
         Graphics g = imagen.getGraphics();
 
-        // El inicio 0 señala el Este del gráfico
+        // El inicio 0 señala el Este del grafico
         g.clearRect(0, 0, 660, 585); // Borra el rectangulo antes de volver a repintar - clearRect(int x, int y, int width, int height)
 
         g.setColor(new Color(255, 255, 255));
-        g.fillRect(0, 0, 660, 585); // Pinta el fondo ya que por defecto sadría Negro
+        g.fillRect(0, 0, 660, 585); // Pinta el fondo ya que por defecto sadria Negro
 
         // Encabezamiento
         g.setColor(Color.black);
@@ -486,7 +487,7 @@ public class Dibujo {
         g.fillRect(530, 100, 10, 10);
         g.drawString("No valorable", 545, 110); // Escribe el nombre - drawString(String str, int x, int y)
 
-        // Creación del índice para la posterior ordenación de los campos
+        // Creacion del indice para la posterior ordenacion de los campos
         dato = Dibujo.ordena(dato);
 
         // Calculamos cuantas partes hemos de dividir el semicirculo, segun los datos que recibimos.
@@ -538,13 +539,13 @@ public class Dibujo {
 
         if ((partes < 15) & (partes > 12)) {
             red = 180 / partes + 1;
-        } // Ajuste para que los decimales resultantes de 180/partes, no desvirtúen la imagen.
+        } // Ajuste para que los decimales resultantes de 180/partes, no desvirtuen la imagen.
         for (int x = 0; x < (dato.length / 4); x++) {
             // Seleccionamos el color del pincel - setColor(Color c) / setColor(int R, int G, int B)
             g.setColor(new Color(Integer.parseInt(dato[x * 4 + 1].toString()), Integer.parseInt(dato[x * 4 + 2].toString()), Integer.parseInt(dato[x * 4 + 3].toString())));
             if ((w + red) > 270) {
                 red = 270 - w;
-            } // Ajuste para que los decimales resultantes de 180/partes, no desvirtúen la imagen.
+            } // Ajuste para que los decimales resultantes de 180/partes, no desvirtuen la imagen.
             g.fillArc(140, 70, 350, 350, w, red); // Pinta el sector - fillArc(int x, int y, int width, int height, int startAngle, int arcAngle)
             g.drawArc(140, 70, 350, 350, w, red); // Dibuja el arco - drawArc(int x, int y, int width, int height, int startAngle, int arcAngle)
             g.drawString(dato[x * 4].toString(), 20, z); // Escribe el nombre - drawString(String str, int x, int y)
@@ -555,7 +556,7 @@ public class Dibujo {
             y = x;
         }
 
-        // Pintamos en el último sector, lo que falte para llegar a 180
+        // Pintamos en el ultimo sector, lo que falte para llegar a 180
         if (w < 270) {
             g.setColor(new Color(Integer.parseInt(dato[y * 4 + 1].toString()), Integer.parseInt(dato[y * 4 + 2].toString()), Integer.parseInt(dato[y * 4 + 3].toString())));
             g.fillArc(140, 70, 350, 350, w, 270 - w); // Pinta el sector - fillArc(int x, int y, int width, int height, int startAngle, int arcAngle)
@@ -564,7 +565,7 @@ public class Dibujo {
 
         dato2 = Dibujo.orden(dato2);
 
-        // El inicio 0 señala el Este del gráfico
+        // El inicio 0 señala el Este del grafico
         // g.clearRect(0, 0, 660, 520); // Borra el rectangulo antes de volver a repintar - clearRect(int x, int y, int width, int height)
         // Calculamos cuantas partes hemos de dividir el semicirculo, segun los datos que recibimos.
         int partes2 = dato2.length / 4;
@@ -618,7 +619,7 @@ public class Dibujo {
 
         if ((partes2 < 15) & (partes2 > 12)) {
             red = 180 / partes2 + 1;
-        } // Ajuste para que los decimales resultantes de 180/partes, no desvirtúen la imagen.
+        } // Ajuste para que los decimales resultantes de 180/partes, no desvirtuen la imagen.
         for (int x = 0; x < (dato2.length / 4); x++) {
             if (w < 270) {
                 w = w + 180;
@@ -627,7 +628,7 @@ public class Dibujo {
             g.setColor(new Color(Integer.parseInt(dato2[x * 4 + 1].toString()), Integer.parseInt(dato2[x * 4 + 2].toString()), Integer.parseInt(dato2[x * 4 + 3].toString())));
             if ((w + red) > 450) {
                 red = 450 - w;
-            } // Ajuste para que los decimales resultantes de 180/partes, no desvirtúen la imagen.
+            } // Ajuste para que los decimales resultantes de 180/partes, no desvirtuen la imagen.
             g.fillArc(140, 70, 350, 350, w, red); // Pinta el sector - fillArc(int x, int y, int width, int height, int startAngle, int arcAngle)
             g.drawArc(140, 70, 350, 350, w, red); // Dibuja el arco - drawArc(int x, int y, int width, int height, int startAngle, int arcAngle)
             // g.drawString(temp[x * 4].toString() + " " + partes + " " + " w=" + w + " Ang=" + red, 500, z); // Escribe el nombre - drawString(String str, int x, int y)
@@ -637,7 +638,7 @@ public class Dibujo {
             y = x;
         }
 
-        // Pintamos en el último sector, lo que falte para llegar a 360 + 90
+        // Pintamos en el ultimo sector, lo que falte para llegar a 360 + 90
         if (w < 450) {
             g.setColor(new Color(Integer.parseInt(dato2[y * 4 + 1].toString()), Integer.parseInt(dato2[y * 4 + 2].toString()), Integer.parseInt(dato2[y * 4 + 3].toString())));
             g.fillArc(140, 70, 350, 350, w, 450 - w); // Pinta el sector - fillArc(int x, int y, int width, int height, int startAngle, int arcAngle)
@@ -715,7 +716,7 @@ public class Dibujo {
         }
         g.drawString(nnota, 40, 553+(a*10)); // Escribe el nombre - drawString(String str, int x, int y)
         
-        // Guardamos el gráfico en un fichero
+        // Guardamos el grafico en un fichero
         File fichero = new File("imagenes/pac" + numero + "_" + Dibujo.removeCar(fecha) + ".jpg");
         String formato = "jpg";
 
@@ -728,7 +729,7 @@ public class Dibujo {
     }
 
     /**
-     * Función que elimina acentos y caracteres especiales de una cadena de
+     * Funcion que elimina acentos y caracteres especiales de una cadena de
      * texto.
      *
      * @param input
@@ -737,7 +738,7 @@ public class Dibujo {
     public static String removeCar(String input) {
         // Cadena de caracteres original a sustituir.
         String original = "áàäéèëíìïóòöúùuñÁÀÄÉÈËÍÌÏÓÒÖÚÙÜÑçÇ/";
-        // Cadena de caracteres ASCII que reemplazarán los originales.
+        // Cadena de caracteres ASCII que reemplazaran los originales.
         String ascii = "aaaeeeiiiooouuunAAAEEEIIIOOOUUUNcC-";
         String output = input;
         for (int i = 0; i < original.length(); i++) {
